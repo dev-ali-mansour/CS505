@@ -6,5 +6,6 @@ set(CMAKE_CXX_STANDARD 20)
 add_executable(CS505
         #        Lectures/1_Pointers/example1.cpp
         #        Lectures/1_Pointers/example2.cpp
-        Lectures/1_Pointers/example3.cpp
+        #        lectures/1_pointers/example3.cpp
+        Lectures/1_Pointers/example4.cpp
 )
