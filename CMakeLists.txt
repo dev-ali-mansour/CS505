@@ -10,7 +10,10 @@ add_executable(CS505
         #        lectures/2_struct_class/class_pointer.cpp
         #        lectures/2_struct_class/template_class.cpp
         #        lectures/2_struct_class/calculator.cpp
-        lectures/3_linked_list/List.h
-        lectures/3_linked_list/List.cpp
-        lectures/3_linked_list/main.cpp
+        #        lectures/3_linked_list/List.h
+        #        lectures/3_linked_list/List.cpp
+        #        lectures/3_linked_list/main.cpp
+        labs/2_array/student/student.cpp
+        labs/2_array/student/student.h
+        labs/2_array/student/main.cpp
 )
