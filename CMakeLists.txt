@@ -11,6 +11,6 @@ add_executable(CS505
         #        lectures/2_struct_class/template_class.cpp
         #        lectures/2_struct_class/calculator.cpp
         lectures/3_linked_list/List.h
-        lectures/3_linked_list/List.tpp
+        lectures/3_linked_list/List.cpp
         lectures/3_linked_list/main.cpp
 )

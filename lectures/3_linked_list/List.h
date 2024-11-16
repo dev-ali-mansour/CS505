@@ -63,6 +63,4 @@ public:
     void traverse();
 };
 
-#include "List.tpp"
-
 #endif //CS505_LIST_H

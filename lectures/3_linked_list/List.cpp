@@ -59,8 +59,8 @@ int List<keyType, dataType>::listSize() const {
     NodePointer temp = head;
     int count = 0;
     while (temp != NULL) {
-        temp = temp->next;
         count++;
+        temp = temp->next;
     }
     return count;
 }
