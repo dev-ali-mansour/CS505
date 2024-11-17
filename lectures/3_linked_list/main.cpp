@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-    List<int, std::string> myList;
+    List<int, string> myList;
     cout << "List is empty: " << (myList.listIsEmpty() ? "Yes" : "No") << endl;
 
     myList.insertFirst(1, "First Element");
