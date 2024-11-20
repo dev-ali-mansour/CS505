@@ -31,12 +31,11 @@ void LinkedList<T>::insertAtEnd(const T &data) {
     pNew->data = data;
     pNew->next = NULL;
     if (isEmpty())
-        head = pNew;
+        insertAtBegging(data);
     else {
-        NodePointer temp = head;
-        while (temp->next != NULL)
-            temp = temp->next;
-        temp->next = pNew;
+        toEnd();
+        pNew->next = cursor->next;
+        cursor->next = pNew;
     }
 }
 
@@ -59,7 +58,6 @@ void LinkedList<T>::deleteNode(const T &data) {
         prev = cursor;
         cursor = cursor->next;
     }
-
 }
 
 template<class T>
@@ -93,7 +91,7 @@ int LinkedList<T>::length() const {
 
 template<class T>
 void LinkedList<T>::emptyLinkedList() {
-    while (head != NULL) {
+    while (!isEmpty()) {
         NodePointer temp = head;
         head = head->next;
         delete temp;
