@@ -6,7 +6,7 @@ using namespace std;
 void findNextGreaterElement(const int arr[], int size);
 
 int main() {
-    int arr[] = {13, 7, 8,6,12};
+    int arr[] = {13, 7, 6, 12};
     int arrSize = sizeof(arr) / sizeof(arr[0]);
 
     findNextGreaterElement(arr, arrSize);
@@ -27,7 +27,6 @@ void findNextGreaterElement(const int arr[], int size) {
         stk.push(arr[i]);
     }
 
-    for (int i = 0; i < size; ++i) {
+    for (int i = 0; i < size; ++i)
         cout << arr[i] << " -> " << results[i] << endl;
-    }
 }
