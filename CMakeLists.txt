@@ -29,7 +29,8 @@ add_executable(CS505
         #        dr_haaidi/lectures/2_class/SimpleString/simpleString.cpp
         #        dr_haaidi/lectures/2_class/SimpleString/simpleString.h
         #        dr_haaidi/lectures/2_class/SimpleString/simpleStringTest.cpp
-        dr_haaidi/assignments/1_Calculator/calculator.cpp
-        dr_haaidi/assignments/1_Calculator/calculator.h
-        dr_haaidi/assignments/1_Calculator/Application.cpp
+        #        dr_haaidi/assignments/1_Calculator/calculator.cpp
+        #        dr_haaidi/assignments/1_Calculator/calculator.h
+        #        dr_haaidi/assignments/1_Calculator/Application.cpp
+        dr_haaidi/lectures/03_Elementary_Data_Structures/main.cpp
 )
