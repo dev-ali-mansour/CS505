@@ -20,13 +20,13 @@ add_executable(CS505
         #        assignments/1_linked_list/LinkedList.h
         #        assignments/1_linked_list/main.cpp
         #        assignments/2_next_greater_element/main.cpp
-        #        dr_haaidi/2_class/TimeClass/Time.cpp
-        #        dr_haaidi/2_class/TimeClass/Time.h
-        #        dr_haaidi/2_class/TimeClass/TimeApp.cpp
-        #        dr_haaidi/2_class/RationalClass/rational.cpp
-        #        dr_haaidi/2_class/RationalClass/rational.h
-        #        dr_haaidi/2_class/RationalClass/rationalTest.cpp
-        dr_haaidi/2_class/SimpleString/simpleString.cpp
-        dr_haaidi/2_class/SimpleString/simpleString.h
-        dr_haaidi/2_class/SimpleString/simpleStringTest.cpp
+        #        dr_haaidi/lectures/2_class/TimeClass/Time.cpp
+        #        dr_haaidi/lectures/2_class/TimeClass/Time.h
+        #        dr_haaidi/lectures/2_class/TimeClass/TimeApp.cpp
+        #        dr_haaidi/lectures/2_class/RationalClass/rational.cpp
+        #        dr_haaidi/lectures/2_class/RationalClass/rational.h
+        #        dr_haaidi/lectures/2_class/RationalClass/rationalTest.cpp
+        dr_haaidi/lectures/2_class/SimpleString/simpleString.cpp
+        dr_haaidi/lectures/2_class/SimpleString/simpleString.h
+        dr_haaidi/lectures/2_class/SimpleString/simpleStringTest.cpp
 )
