@@ -16,5 +16,10 @@ void Time::setTime(int h, int m, int s) {
 }
 
 void Time::displayTime() const {
-    cout << hour << ":" << minute << ":" << second << endl;
+    if (hour < 10) cout << "0";
+    cout << hour << ":";
+    if (minute < 10) cout << "0";
+    cout << minute << ":";
+    if (second < 10)cout << "0";
+    cout << second << endl;
 }
