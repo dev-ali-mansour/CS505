@@ -19,5 +19,8 @@ add_executable(CS505
         #        assignments/1_linked_list/LinkedList.cpp
         #        assignments/1_linked_list/LinkedList.h
         #        assignments/1_linked_list/main.cpp
-        assignments/2_next_greater_element/main.cpp
+        #        assignments/2_next_greater_element/main.cpp
+        dr_haaidi/2_class/TimeClass/Time.cpp
+        dr_haaidi/2_class/TimeClass/Time.h
+        dr_haaidi/2_class/TimeClass/TimeApp.cpp
 )
