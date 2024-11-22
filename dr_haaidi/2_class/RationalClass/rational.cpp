@@ -35,15 +35,13 @@ int rational::getDenom() const {
 }
 
 rational rational::operator+(const rational &f) const {
-    rational temp(num * f.denom + f.num * denom,
-                  denom * f.denom);
-    return temp;
+    return {num * f.denom + f.num * denom,
+            denom * f.denom};
 }
 
 rational rational::operator-(const rational &f) const {
-    rational temp(num * f.denom - f.num * denom,
-                  denom * f.denom);
-    return temp;
+    return {num * f.denom - f.num * denom,
+            denom * f.denom};
 }
 
 bool rational::operator==(const rational &f) const {
@@ -51,25 +49,21 @@ bool rational::operator==(const rational &f) const {
 }
 
 rational rational::multiply(const rational &f) const {
-    rational temp(num * f.num, denom * f.denom);
-    return temp;
+    return {num * f.num, denom * f.denom};
 }
 
 rational rational::divide(const rational &f) const {
-    rational temp(num * f.denom, denom * f.num);
-    return temp;
+    return {num * f.denom, denom * f.num};
 }
 
 rational rational::add(const rational &f) const {
-    rational temp(num * f.denom + f.num * denom,
-                  denom * f.denom);
-    return temp;
+    return {num * f.denom + f.num * denom,
+            denom * f.denom};
 }
 
 rational rational::subtract(const rational &f) const {
-    rational temp(num * f.denom - f.num * denom,
-                  denom * f.denom);
-    return temp;
+    return {num * f.denom - f.num * denom,
+            denom * f.denom};
 }
 
 void rational::readRational() {
