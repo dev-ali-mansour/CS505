@@ -33,6 +33,9 @@ add_executable(CS505
         #        dr_haaidi/assignments/1_Calculator/calculator.h
         #        dr_haaidi/assignments/1_Calculator/Application.cpp
         #        dr_haaidi/lectures/03_Elementary_Data_Structures/main.cpp
-        dr_haaidi/lectures/4_Elementary_Data_Structures_P2/main.cpp
-        dr_haaidi/assignments/2_Circular_LinkedList/main.cpp
+        #        dr_haaidi/lectures/4_Elementary_Data_Structures_P2/main.cpp
+        #        dr_haaidi/assignments/2_Circular_LinkedList/main.cpp
+        dr_haaidi/lectures/05_LinkedList/list.cpp
+        dr_haaidi/lectures/05_LinkedList/list.h
+        dr_haaidi/lectures/05_LinkedList/main.cpp
 )
