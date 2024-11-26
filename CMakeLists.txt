@@ -20,22 +20,22 @@ add_executable(CS505
         #        assignments/1_linked_list/LinkedList.h
         #        assignments/1_linked_list/main.cpp
         #        assignments/2_next_greater_element/main.cpp
-        #        dr_haaidi/lectures/2_class/TimeClass/Time.cpp
-        #        dr_haaidi/lectures/2_class/TimeClass/Time.h
-        #        dr_haaidi/lectures/2_class/TimeClass/TimeApp.cpp
-        #        dr_haaidi/lectures/2_class/RationalClass/rational.cpp
-        #        dr_haaidi/lectures/2_class/RationalClass/rational.h
-        #        dr_haaidi/lectures/2_class/RationalClass/rationalTest.cpp
-        #        dr_haaidi/lectures/2_class/SimpleString/simpleString.cpp
-        #        dr_haaidi/lectures/2_class/SimpleString/simpleString.h
-        #        dr_haaidi/lectures/2_class/SimpleString/simpleStringTest.cpp
-        #        dr_haaidi/assignments/1_Calculator/calculator.cpp
-        #        dr_haaidi/assignments/1_Calculator/calculator.h
-        #        dr_haaidi/assignments/1_Calculator/Application.cpp
-        #        dr_haaidi/lectures/03_Elementary_Data_Structures/main.cpp
-        #        dr_haaidi/lectures/4_Elementary_Data_Structures_P2/main.cpp
-        #        dr_haaidi/assignments/2_Circular_LinkedList/main.cpp
-        dr_haaidi/lectures/05_LinkedList/list.cpp
-        dr_haaidi/lectures/05_LinkedList/list.h
-        dr_haaidi/lectures/05_LinkedList/main.cpp
+        #        dr_haidi/lectures/2_class/TimeClass/Time.cpp
+        #        dr_haidi/lectures/2_class/TimeClass/Time.h
+        #        dr_haidi/lectures/2_class/TimeClass/TimeApp.cpp
+        #        dr_haidi/lectures/2_class/RationalClass/rational.cpp
+        #        dr_haidi/lectures/2_class/RationalClass/rational.h
+        #        dr_haidi/lectures/2_class/RationalClass/rationalTest.cpp
+        #        dr_haidi/lectures/2_class/SimpleString/simpleString.cpp
+        #        dr_haidi/lectures/2_class/SimpleString/simpleString.h
+        #        dr_haidi/lectures/2_class/SimpleString/simpleStringTest.cpp
+        #        dr_haidi/assignments/1_Calculator/calculator.cpp
+        #        dr_haidi/assignments/1_Calculator/calculator.h
+        #        dr_haidi/assignments/1_Calculator/Application.cpp
+        #        dr_haidi/lectures/03_Elementary_Data_Structures/main.cpp
+        #        dr_haidi/lectures/4_Elementary_Data_Structures_P2/main.cpp
+        #        dr_haidi/assignments/2_Circular_LinkedList/main.cpp
+        dr_haidi/lectures/05_LinkedList/list.cpp
+        dr_haidi/lectures/05_LinkedList/list.h
+        dr_haidi/lectures/05_LinkedList/main.cpp
 )
