@@ -42,6 +42,8 @@ public:
 
     void retrieveData(char &d) const;
 
+    void retrieveKey(int &k) const;
+
     void insertFirst(const int &k, const char &d);
 
     void insertAfter(const int &k, const char &d);

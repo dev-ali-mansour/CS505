@@ -86,6 +86,10 @@ void list::retrieveData(char &d) const {
     d = cursor->data;
 }
 
+void list::retrieveKey(int &k) const {
+    k = cursor->key; //return cursor->data
+}
+
 // insert a node with data (el) at the head of the list;
 // the new node becomes the current node.
 void list::insertFirst(const int &k, const char &d) {
