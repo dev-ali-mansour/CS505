@@ -11,11 +11,16 @@ class list {
         node *next;
     };
 
-    node *head, *prev, *cursor;
+    typedef node *NodePointer;
+
+    //pointers
+    NodePointer head, prev, cursor;
 
     //operations/functions
 public:
     list();
+
+    ~list();
 
     bool listIsEmpty() const;
 
@@ -39,6 +44,25 @@ public:
 
     void insertFirst(const int &k, const char &d);
 
+    void insertAfter(const int &k, const char &d);
+
+    void insertBefore(const int &k, const char &d);
+
+    void insertEnd(const int &k, const char &d);
+
+    void deleteNode();
+
+    void deleteFirst();
+
+    void deleteEnd();
+
+    void makeListEmpty();
+
+    bool search(const int &k);
+
+    void orderInsert(const int &k, const char &d);
+
+    void traverse();
 };
 
 
