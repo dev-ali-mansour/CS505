@@ -118,12 +118,15 @@ void list::insertAfter(const int &k, const char &d) {
 // insert a node with data (el) before the current node,
 // current position becomes the new node.
 void list::insertBefore(const int &k, const char &d) {
-    NodePointer pNew = new node;
-    pNew->key = k;
-    pNew->data = d;
-    pNew->next = cursor;
-    prev->next = pNew;
-    cursor = pNew;
+    if (atFirst()) insertFirst(k, d); // Fix issue of inserting before the first node
+    else {
+        NodePointer pNew = new node;
+        pNew->key = k;
+        pNew->data = d;
+        pNew->next = cursor;
+        prev->next = pNew;
+        cursor = pNew;
+    }
 }
 
 // insert a node with data (el) at the end of the list,
