@@ -1,13 +1,15 @@
 #ifndef CS505_LIST_H
 #define CS505_LIST_H
 
+// Specification of the class
 
+template<class keyType, class dataType>
 class list {
     //data members
     class node {
     public:
-        int key;
-        char data;
+        keyType key;
+        dataType data;
         node *next;
     };
 
@@ -15,6 +17,11 @@ class list {
 
     //pointers
     NodePointer head, prev, cursor;
+
+    //exercises
+    int list_size2(NodePointer h);
+
+    int Display(NodePointer h);
 
     //operations/functions
 public:
@@ -38,19 +45,19 @@ public:
 
     int listSize() const;
 
-    void updateData(const char &d);
+    void updateData(const dataType &d);
 
-    void retrieveData(char &d) const;
+    void retrieveData(dataType &d) const;
 
-    void retrieveKey(int &k) const;
+    void retrieveKey(keyType &k) const;
 
-    void insertFirst(const int &k, const char &d);
+    void insertFirst(const keyType &k, const dataType &d);
 
-    void insertAfter(const int &k, const char &d);
+    void insertAfter(const keyType &k, const dataType &d);
 
-    void insertBefore(const int &k, const char &d);
+    void insertBefore(const keyType &k, const dataType &d);
 
-    void insertEnd(const int &k, const char &d);
+    void insertEnd(const keyType &k, const dataType &d);
 
     void deleteNode();
 
@@ -60,11 +67,17 @@ public:
 
     void makeListEmpty();
 
-    bool search(const int &k);
+    bool search(const keyType &k);
 
-    void orderInsert(const int &k, const char &d);
+    void orderInsert(const keyType &k, const dataType &d);
 
     void traverse();
+
+    //exercises
+    int Recursive_List_Size();
+
+    int DisplayList();
+
 };
 
 
