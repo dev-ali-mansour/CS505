@@ -4,22 +4,22 @@ project(CS505)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(CS505
-        #        lectures/1_Pointers/example1.cpp
-        #        lectures/1_Pointers/example2.cpp
-        #        sections/1_pointers/example3.cpp
-        #        lectures/2_struct_class/class_pointer.cpp
-        #        lectures/2_struct_class/template_class.cpp
-        #        lectures/2_struct_class/calculator.cpp
-        #        lectures/3_linked_list/List.h
-        #        lectures/3_linked_list/List.cpp
-        #        lectures/3_linked_list/main.cpp
-        #        labs/2_array/student/student.cpp
-        #        labs/2_array/student/student.h
-        #        labs/2_array/student/main.cpp
-        #        assignments/1_linked_list/LinkedList.cpp
-        #        assignments/1_linked_list/LinkedList.h
-        #        assignments/1_linked_list/main.cpp
-        #        assignments/2_next_greater_element/main.cpp
+        #        current/lectures/1_Pointers/example1.cpp
+        #        current/lectures/1_Pointers/example2.cpp
+        #        current/sections/1_pointers/example3.cpp
+        #        current/lectures/2_struct_class/class_pointer.cpp
+        #        current/lectures/2_struct_class/template_class.cpp
+        #        current/lectures/2_struct_class/calculator.cpp
+        #        current/lectures/3_linked_list/List.h
+        #        current/lectures/3_linked_list/List.cpp
+        #        current/lectures/3_linked_list/main.cpp
+        #        current/labs/2_array/student/student.cpp
+        #        current/labs/2_array/student/student.h
+        #        current/labs/2_array/student/main.cpp
+        #        current/assignments/1_linked_list/LinkedList.cpp
+        #        current/assignments/1_linked_list/LinkedList.h
+        #        current/assignments/1_linked_list/main.cpp
+        current/assignments/2_next_greater_element/main.cpp
         #        dr_haidi/lectures/2_class/TimeClass/Time.cpp
         #        dr_haidi/lectures/2_class/TimeClass/Time.h
         #        dr_haidi/lectures/2_class/TimeClass/TimeApp.cpp
@@ -35,7 +35,7 @@ add_executable(CS505
         #        dr_haidi/lectures/03_Elementary_Data_Structures/main.cpp
         #        dr_haidi/lectures/4_Elementary_Data_Structures_P2/main.cpp
         #        dr_haidi/assignments/2_Circular_LinkedList/main.cpp
-        dr_haidi/lectures/05_LinkedList/list.cpp
-        dr_haidi/lectures/05_LinkedList/list.h
-        dr_haidi/lectures/05_LinkedList/main.cpp
+        #        dr_haidi/lectures/05_LinkedList/list.cpp
+        #        dr_haidi/lectures/05_LinkedList/list.h
+        #        dr_haidi/lectures/05_LinkedList/main.cpp
 )
