@@ -19,7 +19,7 @@ add_executable(CS505
         #        current/assignments/1_linked_list/LinkedList.cpp
         #        current/assignments/1_linked_list/LinkedList.h
         #        current/assignments/1_linked_list/main.cpp
-        current/assignments/2_next_greater_element/main.cpp
+        #        current/assignments/2_next_greater_element/main.cpp
         #        dr_haidi/lectures/2_class/TimeClass/Time.cpp
         #        dr_haidi/lectures/2_class/TimeClass/Time.h
         #        dr_haidi/lectures/2_class/TimeClass/TimeApp.cpp
@@ -38,4 +38,7 @@ add_executable(CS505
         #        dr_haidi/lectures/05_LinkedList/list.cpp
         #        dr_haidi/lectures/05_LinkedList/list.h
         #        dr_haidi/lectures/05_LinkedList/main.cpp
+        dr_haidi/assignments/3_LinkedList/list.h
+        dr_haidi/assignments/3_LinkedList/list.cpp
+        dr_haidi/assignments/3_LinkedList/main.cpp
 )
