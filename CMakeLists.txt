@@ -38,10 +38,13 @@ add_executable(CS505
         #        dr_haidi/lectures/05_LinkedList/list.cpp
         #        dr_haidi/lectures/05_LinkedList/list.h
         #        dr_haidi/lectures/05_LinkedList/main.cpp
-#        dr_haidi/assignments/3_LinkedList/list.h
-#        dr_haidi/assignments/3_LinkedList/list.cpp
-#        dr_haidi/assignments/3_LinkedList/main.cpp
-        dr_haidi/lectures/8_Stack/Stackt.cpp
-        dr_haidi/lectures/8_Stack/Stackt.h
-        dr_haidi/lectures/8_Stack/main.cpp
+        #        dr_haidi/assignments/3_LinkedList/list.h
+        #        dr_haidi/assignments/3_LinkedList/list.cpp
+        #        dr_haidi/assignments/3_LinkedList/main.cpp
+        #        dr_haidi/lectures/8_Stack/Stackt.cpp
+        #        dr_haidi/lectures/8_Stack/Stackt.h
+        #        dr_haidi/lectures/8_Stack/main.cpp
+        dr_haidi/lectures/9_Linked_Stack/StackL.cpp
+        dr_haidi/lectures/9_Linked_Stack/StackL.h
+        dr_haidi/lectures/9_Linked_Stack/main.cpp
 )
