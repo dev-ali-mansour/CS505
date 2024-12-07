@@ -14,7 +14,7 @@ Stackt<Type>::Stackt(int nelelments) {
 template<class Type>
 Stackt<Type>::Stackt(const Stackt<Type> &original)
         :maxSize(original.maxSize), top(original.top) {
-    stack = new int[original.maxSize];
+    stack = new Type[maxSize];
     for (int i = 0; i <= top; ++i)
         stack[i] = original.stack[i];
 }
