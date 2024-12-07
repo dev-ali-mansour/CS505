@@ -238,7 +238,7 @@ void list<keyType, dataType>::orderInsert(const keyType &k, const dataType &d) {
     while (!cursorIsEmpty() && k > cursor->key)
         advance();
     if (prev == NULL) insertFirst(k, d);
-    insertBefore(k, d);
+    else insertBefore(k, d);
 }
 
 // traverse list to print key and data fields
