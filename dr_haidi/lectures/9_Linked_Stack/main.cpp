@@ -42,18 +42,18 @@ int main() {
 
     // Todo Revision on converting infix to postfix expression from lecture PDF file
 
-    /* stack<char> st;
+     stack<char> st;
      st.push('A');
      st.push('B');
      st.push('c');
      st.push('D');
      char ch = GetBottom(st);
- //    char ch = GetBottom2(st);
+//     char ch = GetBottom2(st);
      cout << "ch = " << ch << endl;
      while (!st.empty()) {
          cout << st.top() << endl;
          st.pop();
-     }*/
+     }
 
     stack<int> nums;
     nums.push(1);
