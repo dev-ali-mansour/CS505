@@ -14,7 +14,7 @@ Queue<Type>::Queue(int nelements) {
 
 // Copy constructor
 template<class Type>
-Queue<Type>::Queue(const Queue<Type> &original)
+Queue<Type>::Queue(const Queue &original)
         :maxSize(original.maxSize), front(original.front), rear(original.rear), count(original.count) {
     queue = new Type[maxSize];
     for (int i = 0; i < maxSize; ++i)
