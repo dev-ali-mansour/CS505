@@ -44,7 +44,10 @@ add_executable(CS505
         #        dr_haidi/lectures/8_Stack/Stackt.cpp
         #        dr_haidi/lectures/8_Stack/Stackt.h
         #        dr_haidi/lectures/8_Stack/main.cpp
-        dr_haidi/lectures/9_Linked_Stack/StackL.cpp
-        dr_haidi/lectures/9_Linked_Stack/StackL.h
-        dr_haidi/lectures/9_Linked_Stack/main.cpp
+        #        dr_haidi/lectures/9_Linked_Stack/StackL.cpp
+        #        dr_haidi/lectures/9_Linked_Stack/StackL.h
+        #        dr_haidi/lectures/9_Linked_Stack/main.cpp
+        dr_haidi/lectures/10_queue/Queue.cpp
+        dr_haidi/lectures/10_queue/Queue.h
+        dr_haidi/lectures/10_queue/main.cpp
 )
