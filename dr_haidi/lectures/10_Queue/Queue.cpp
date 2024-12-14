@@ -1,4 +1,5 @@
 #include "Queue.h"
+#include "../8_Stack/Stackt.cpp"
 #include <iostream>
 
 using namespace std;
@@ -74,3 +75,16 @@ int Queue<Type>::queueLength() const {
     return count;
 }
 
+template<class Type>
+void Queue<Type>::reverse() {
+    Stackt<Type> s;
+    int x;
+    while (!queueIsEmpty()) {
+        dequeue(x);
+        s.push(x);
+    }
+    while (!s.stackIsEmpty()) {
+        s.pop(x);
+        enqueue(x);
+    }
+}

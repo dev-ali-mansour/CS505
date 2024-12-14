@@ -28,6 +28,9 @@ public:
     bool queueIsFull() const;           // Test for full queue
 
     int queueLength() const;            // Queue Length
+
+    // Exercises
+    void reverse();
 };
 
 
