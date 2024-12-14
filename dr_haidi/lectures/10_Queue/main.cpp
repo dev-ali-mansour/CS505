@@ -30,7 +30,7 @@ int main() {
     q.enqueue(7);
     cout << "queue length = " << q.queueLength() << endl;
 
-    /*q.reverse();
+    q.reverse();
     cout << "Reversed Queue:" << endl;
     while (!q.queueIsEmpty()) {
         q.dequeue(x);
@@ -61,7 +61,7 @@ int main() {
     while (!q1.queueIsEmpty()) {
         q1.dequeue(x);
         cout << x << endl;
-    }*/
+    }
 
     v = NthElement(q, 3);
     cout << "Element = " << v << endl;
