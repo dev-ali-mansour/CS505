@@ -3,6 +3,12 @@
 
 using namespace std;
 
+char QueueRear(const Queue<char> &q);
+
+void reverseString(string &str);
+
+void reverse(Queue<char> &q);
+
 void split(Queue<int> &q, Queue<int> &q1, Queue<int> &q2);
 
 void split2(const Queue<int> &Q, Queue<int> &Q1, Queue<int> &Q2);
@@ -19,7 +25,9 @@ void min(const Queue<int> &q);
 
 int main() {
     Queue<int> q, q1, q2;
+    Queue<char> q3;
     int x, v, x1;
+    char c;
 
     q.enqueue(1);
     q.enqueue(2);
@@ -29,6 +37,19 @@ int main() {
     q.enqueue(6);
     q.enqueue(7);
     cout << "queue length = " << q.queueLength() << endl;
+    q3.enqueue('A');
+    q3.enqueue('B');
+    q3.enqueue('C');
+    q3.enqueue('D');
+    cout << "queue rear = " << QueueRear(q3) << endl;
+    string s = "ahmed";
+    reverseString(s);
+    reverse(q3);
+    cout << "Reversed Queue:" << endl;
+    while (!q3.queueIsEmpty()) {
+        q3.dequeue(c);
+        cout << c << endl;
+    }
 
     q.reverse();
     cout << "Reversed Queue:" << endl;
@@ -83,6 +104,48 @@ int main() {
     min(q1);
 
     return 0;
+}
+
+char QueueRear(const Queue<char> &q) {
+    Queue<char> temp(q);
+    char x;
+    while (!temp.queueIsEmpty()) {
+        temp.dequeue(x);
+    }
+    return x;
+}
+
+void reverseString(string &str) {
+    Queue<char> q1, q2;
+    string output = "";
+    int length = str.length();
+    for (int i = 0; i < length; i++) {
+        q1.enqueue(str.at(i));
+    }
+    char el;
+    for (int i = 0; i < length; i++) {
+        int tempLength = q1.queueLength() - 1;
+        for (int j = 0; j < tempLength; j++) {
+            q1.dequeue(el);
+            q2.enqueue(el);
+        }
+        q1.dequeue(el);
+        output += el;
+        tempLength = q2.queueLength();
+        for (int j = 0; j < tempLength; j++) {
+            q2.dequeue(el);
+            q1.enqueue(el);
+        }
+    }
+    cout << output << endl;
+}
+
+void reverse(Queue<char> &q) {
+    char x;
+    if (q.queueIsEmpty())return;
+    q.dequeue(x);
+    reverse(q);
+    q.enqueue(x);
 }
 
 // Sheet 6 Answers
